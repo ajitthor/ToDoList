@@ -1,0 +1,112 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+   box-sizing: border-box;    
+ 
+}
+p{
+color: navy;
+font-size: larger;
+font-weight: bolder;
+font-style: italic;
+text-align: center;
+}
+#section-el{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 25% 25% 25% 25%;
+    background-color: burlywood;
+    width: 100%;
+    justify-content: space-between;
+}
+
+h2{
+    color: darkslategrey;
+}
+
+#section-el img{
+    display: flex;
+    height:300px;
+    width: 80%;
+    margin: 10px;
+    
+}
+#section-el p{
+    width: 100%;
+    display: flex;
+    justify-content: center;    
+   
+}
+#section-el h2{
+    width: 100%;
+}
+
+#imageEL{
+    background-color: aqua;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+@media(max-width:900px) {
+    p{
+        color: navy;
+        font-size: 15px;
+        font-weight: bolder;
+        font-style: italic;
+        }       
+        #section-el{
+            display: grid;
+            grid-template-columns: 50% 50%;
+            justify-content: center;
+            background-color: burlywood;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+
+        }
+        #section-el img{
+            display: flex;
+            height:200px;
+            width: 60%;
+            margin: 10px;
+            
+        }
+        #section-el p{
+            width: 100%;
+            display: flex;
+            justify-content: center;    
+           text-align: center;
+        }
+}
+
+
+
+@media(max-width:500px) {
+    p{
+        color: navy;
+        font-size: 15px;
+        font-weight: bolder;
+        font-style: italic;
+        }       
+        #section-el{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            background-color: burlywood;
+            width: 100%;
+            justify-content: space-between;
+        }
+        #section-el img{
+            display: flex;
+            height:200px;
+            width: 60%;
+            margin: 10px;
+            
+        }
+        #section-el p{
+            width: 100%;
+            display: flex;
+            justify-content: center;    
+           text-align: center;
+        }
+}

@@ -1,0 +1,122 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    list-style: lower-roman;
+   
+    
+}
+body{
+    background-color: gray;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+    background-color:orangered;
+    border-radius: 12px;
+    padding: 40px;
+    margin: 10px;
+
+}
+nav h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 30px;
+    font-weight: 700;
+}
+nav a{
+    
+    
+    color: aliceblue;
+    gap: 9px;
+    width: 500px;
+
+}
+#NavRight{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 500px;
+    height: 60px;
+    align-items: center;
+    
+}
+#section1{
+    display: flex;
+    flex-direction: row;
+    font-size: larger;
+    font-style: italic;
+ width: 100%;   
+}
+#section1 span{
+   background-color: orangered;
+    color:white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+#section1 button{
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: orangered;
+    color: white;
+}
+#section1 input {
+    background-color: orangered;
+    color: white;
+}
+#Task-El{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#section1 textarea{
+    background-color: orangered;
+    color: white;
+}
+
+#theTask{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+
+  gap: 10px;
+  justify-content: space-between;
+  width: 100%;
+
+  background-color:orangered;
+}
+#theTask #task{
+    color :white;
+    margin-right: 450px;
+   
+}
+#theTask #description{
+    color: white;
+    margin-right: 250px;
+}
+#theTask #date{
+    color: white;
+    margin-right: 50px;
+}
+#completedTasks{
+    background-color: orangered;
+    color:white
+}
+#UncompletedTasks{
+    background-color: darkblue;
+    color: burlywood;
+}
+button{
+    padding: 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    background-color: orangered;
+    color: white;
+}

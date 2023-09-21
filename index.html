@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+<link rel="stylesheet" href="index.css">
+</head>
+
+<nav>
+    <h2>To Do List</h2>
+    <div id="NavRight">
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    </div>
+</nav>
+<body>
+  
+    <div id="section1">
+    <span>
+     <label for="Task-El">Task:</label>
+    <input id="Task-El" type="text">
+    <label for="description-el">Description: </label>
+    <textarea name="description-el" id="description-el" cols="15" rows="1"></textarea>
+    <label for="completionDate-el">Completion Date:</label>
+    <input id="completionDate-el" type="date">
+    <button id="addTask-btn">Add Task</button>
+    <button id="completed">CompletedTask</button>
+    
+</span>
+</div>
+<div id="section2">
+<h2>Uncompleted Tasks</h2>
+<p id="theTask"><ul></ul></p>
+</div>
+
+<p id="theTask"><ul></ul></p>
+<br>
+<p id="completedTasks">Completed:</p>
+
+
+<script src="index.js"></script>
+</body>
+</html>
